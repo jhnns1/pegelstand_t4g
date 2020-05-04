@@ -7,7 +7,7 @@ response = requests.get("https://www.pegelonline.wsv.de/webservices/rest-api/v2/
 data = response.json()
 
 # extract 4 stations with their matching uuid
-stations = [data[i]['uuid'] for i in range(4)]
+stations = [data[i]['shortname'] for i in range(4)]
 
 res = list()
 for i in range(len(stations)):
