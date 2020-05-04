@@ -10,6 +10,11 @@ streamlit run first_try.py
 from your console having streamlit, >= python3.6 and requests installed
 
 ## requirements
+```
 >= python 3.6
 streamlit
 requests
+```
+
+## Warnings
+For the stations PASSAU LUITPOLDBRÜCKE DFH and PASSAU STEINBACHBRÜCKE DFH there were no values fetched.
